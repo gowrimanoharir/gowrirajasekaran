@@ -1,1 +1,56 @@
-p {align-self: center}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Georgia", "Times New Roman", Times, Arial;
+	line-height: 125%;
+	font-size: 18px;
+}
+
+.content{
+	background-color: #d9ecd0;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.header{
+		background-color: black;
+		color: #ffeead;
+		text-align: center;
+		font-size: 35px;
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+
+a{
+	margin-left: 5px;
+	color: ;
+}
+
+
+
+
+.biosection, 
+.contactinfo,
+.bioimg {
+	float: left;
+}
+
+.biosection{
+	width: 70%;
+}
+
+.contactinfo{
+	width: 30%;
+}
+
+.bioimg{
+	margin-right: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+.contactlist{
+	line-height: 150%;
+}
