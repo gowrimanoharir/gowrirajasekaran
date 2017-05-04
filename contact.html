@@ -1,43 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Gowri Manohari M Rajasekaran</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-	<header class="hdrbk hdrbdr">
-		<div class="nmfntprp hfnt nmbk">
-			Gowri Manohari M Rajasekaran
-		</div>
-		<nav class="navpn">
-			<a href="index.html" class="navlnk navbdr">About</a>
-			<a href="portfolio.html" class="navlnk navbdr">Portfolio</a>
-			<a href="contact.html" class="navlnk">Contact</a>
-		</nav>
-	</header>
-	<div class="container">
-		<section class="maincnt cntbk">
-			<header class="abthdr hfnt hbdr">About Me</header>
-			<article class="abtme">
-			<img src="http://lorempixel.com/200/150/" class="myimg">
-			<p class="myintro">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-			<br>
-			It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-			</article>
-		</section>
+	<head>
+		<meta charset="utf-8">
+		<title>Gowri Manohari M Rajasekaran</title>
 
-		<aside class="cnctme">
-			<header class="cncthdr hbdr">Connect with Me</header>
-			<a href="https://www.linkedin.com" class="cnctlnk"><img src="assets/images/linkedin.png" class="cncticon"></a>
-			<a href="https://www.github.com" class="cnctlnk"><img src="assets/images/github.png" class="cncticon"></a>
-			<a href="https://www.stackoverflow.com" class="cnctlnk"><img src="assets/images/stackoverflow.png" class="cncticon"></a>
-		</aside>
+		<!--Meyer reset CSS to reset browser default settings-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!--CSS to style the website-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+		<!--Header bar section-->
+		<header class="hdrbk hdrbdr">
+
+			<!--Name Block-->
+			<div class="nmfntprp hfnt nmbk">
+				Gowri Manohari M Rajasekaran
+			</div>
+
+			<!--Navigation links Block-->
+			<nav class="navpn">
+				<a href="index.html" class="navlnk navbdr">About</a>
+				<a href="portfolio.html" class="navlnk navbdr">Portfolio</a>
+				<a href="contact.html" class="navlnk">Contact</a>
+			</nav>
+		</header>
 		
-	</div>
-	<footer class="ftr">
-		<p class="ftrfnt">&copy; 2017 Gowri Manohari M Rajasekaran</p>
-	</footer>
-</body>
+		<!--Page content section-->
+		<div class="container">
+			<section class="maincnt cntbk">
+
+				<!--Contact Form block-->
+				<header class="hfnt hdrbdr">
+					Contact
+				</header>
+
+				<form class="cnctform">
+					<label class="cnctitm">
+						Name
+					</label>
+
+					<input type="text" name="name" placeholder="John Smith" autofocus="yes" class="ipboxwd ipboxbdr ipht">
+			 		
+			 		<label class="cnctitm">
+			 			Email
+			 		</label>
+
+					<input type="email" name="email" placeholder="example@gmail.com" class="ipboxwd ipboxbdr ipht">
+
+					<label class="cnctitm">
+						Message
+					</label>
+
+					<textarea name="msgbox" rows="10" class="ipboxwd ipboxbdr">
+					</textarea>
+
+					<a href="" class="frmbtn">
+						Submit
+					</a>
+										
+				</form>
+			</section>
+			
+			<!--Contact me block-->
+			<aside class="cnctme">
+				<header class="cncthdr hdrbdr">Connect with Me</header>
+				<a href="https://www.linkedin.com" class="cnctlnk"><img src="assets/images/linkedin.png" class="cncticon"></a>
+				<a href="https://www.github.com" class="cnctlnk"><img src="assets/images/github.png" class="cncticon"></a>
+				<a href="https://www.stackoverflow.com" class="cnctlnk"><img src="assets/images/stackoverflow.png" class="cncticon"></a>
+			</aside>
+			
+		</div>
+		
+		<!--Footer bar section-->
+		<footer class="ftr">
+			<p class="ftrfnt">&copy; 2017 Gowri Manohari M Rajasekaran</p>
+		</footer>
+
+	</body>
 </html>
