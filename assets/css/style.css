@@ -71,6 +71,8 @@ body{
 	line-height: 150%;
 	color: #777777;
 	margin: 0 auto;
+	margin-bottom: 100px;
+	overflow: auto;
 }
 
 .maincnt{
@@ -107,10 +109,11 @@ body{
 
 .cnctitm{
 	display: block;
-	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
 }
 
 .ipboxwd{
+	display: block;
 	width: 610px;
 	padding-left: 10px;
 }
@@ -128,6 +131,7 @@ body{
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-decoration: none;
+	text-align: center;
 	padding: 5px 20px 5px 20px;
 	margin: 10px 0 10px 0;
 }
@@ -168,18 +172,18 @@ body{
 	position: fixed;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #666666;
     color: #bdbdb1;
-    border-top: 10px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 }
 
 .ftrfnt{
 	font-family: arial;
     font-size: 80%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 

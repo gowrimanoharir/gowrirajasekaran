@@ -7,21 +7,23 @@
 		<!--Meyer reset CSS to reset browser default settings-->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-		<!--CSS to style the website-->
+		<!--CSS to style the website using Flexbox-->
 		<link rel="stylesheet" type="text/css" href="assets/css/styleflex.css">
 	</head>
 
 	<body>
 		<!--Header bar section-->
-		<header class="hdrbk hdrbdr">
+		<header class="hdr hdrbdr">
 
 			<!--Name Block-->
-			<div class="nmfntprp hfnt nmbk">
-				Gowri Manohari M Rajasekaran
+			<div class="nam">
+				<div class="nmfntprp hfnt n1">
+					Gowri Manohari M Rajasekaran
+				</div>
 			</div>
 
 			<!--Navigation links Block-->
-			<nav class="navpn">
+			<nav class="lnks">
 				<a href="index.html" class="navlnk navbdr">About</a>
 				<a href="portfolio.html" class="navlnk navbdr">Portfolio</a>
 				<a href="contact.html" class="navlnk">Contact</a>
@@ -30,28 +32,55 @@
 		
 		<!--Page content section-->
 		<div class="container">
-			<section class="maincnt cntbk">
+			<section class="cntbk">
 
-				<!--About me block-->
-				<header class="hfnt hdrbdr">
-					About Me
+				<!--Portfolio block-->
+				<header class="hfnt hdrbdr prtf">
+					Portfolio
 				</header>
 
-				<article class="abtme">
-					<img src="http://lorempixel.com/200/150/" class="myimg">
-
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-					<br>
-					<p>&nbsp; &nbsp; &nbsp; It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-				</article>
+				<section class="prtf">
+					<div class="imgpos">
+						<img src="assets/images/prj1.jpg" class="myimg">
+						<div class="ovrltxtpos ovrltxtprp">
+							Coming soon
+						</div>
+					</div>
+					<div class="imgpos">
+						<img src="assets/images/prj2.jpg" class="myimg">
+						<div class="ovrltxtpos ovrltxtprp">
+							Coming soon
+						</div>
+					</div>
+					<div class="imgpos">
+						<img src="assets/images/prj3.jpg" class="myimg">
+						<div class="ovrltxtpos ovrltxtprp">
+							Coming soon
+						</div>
+					</div>
+					<div class="imgpos">
+						<img src="assets/images/prj4.jpg" class="myimg">
+						<div class="ovrltxtpos ovrltxtprp">
+							Coming soon
+						</div>
+					</div>
+					<div class="imgpos">
+						<img src="assets/images/prj5.jpg" class="myimg">
+						<div class="ovrltxtpos ovrltxtprp">
+							Coming soon
+						</div>
+					</div>
+					
+				</section>
 			</section>
 			
 			<!--Contact me block-->
 			<aside class="cnctme">
 				<header class="cncthdr hdrbdr">Connect with Me</header>
-				<a href="https://www.linkedin.com" class="cnctlnk"><img src="assets/images/linkedin.png" class="cncticon"></a>
-				<a href="https://www.github.com" class="cnctlnk"><img src="assets/images/github.png" class="cncticon"></a>
-				<a href="https://www.stackoverflow.com" class="cnctlnk"><img src="assets/images/stackoverflow.png" class="cncticon"></a>
+				<a href="https://www.linkedin.com" class="cnctlnk"  target="_blank"><img src="assets/images/linkedin.png" class="cncticon"></a>
+				<a href="https://www.stackoverflow.com" class="cnctlnk" target="_blank"><img src="assets/images/stackoverflow.png" class="cncticon"></a>
+				<a href="https://www.github.com" class="cnctlnk" target="_blank"><img src="assets/images/github.png" class="cncticon"></a>
+				
 			</aside>
 			
 		</div>
